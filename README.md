@@ -1,2 +1,3 @@
-# splunk-pihole-ta-documentation
-Documentation for the Pi-hole Add-on for Splunk
+# Pi-hole Add-on for Splunk Documentation
+
+Please see the official documentation at (temp placeholder)
