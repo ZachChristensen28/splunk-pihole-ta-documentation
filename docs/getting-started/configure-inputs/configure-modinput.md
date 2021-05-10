@@ -72,8 +72,8 @@ At least one account is needed for the modular input to work.
 
 1. Navigate to the Input tab.
 2. Click "Create New Input"
-3. <small>_(optional)_</small> Create input for System Summary Events [see Modular Input Reference](/reference/mod-input-reference.md).
-4. <small>_(optional)_</small> Create input for Filter Events [see Modular Input Reference](/reference/mod-input-reference.md).
+3. <small>_(optional)_</small> Create input for System Summary Events see [Modular Input Reference](../../reference/mod-input-reference.md).
+4. <small>_(optional)_</small> Create input for Filter Events see [Modular Input Reference](../../reference/mod-input-reference.md).
 5. For the selected input, enter a unique name, index, and an interval to run in seconds. <small>_Minimum: 300 (5 minutes)_</small>.
 6. Click add.
 
