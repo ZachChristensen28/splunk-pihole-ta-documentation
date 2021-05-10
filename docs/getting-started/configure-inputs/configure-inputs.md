@@ -4,7 +4,8 @@
 
 ## Create an Index
 
-<small>This is an optional step. If you do not wish to create a new index, skip to [Splunk Universal Forwarder Configuration](#splunk-universal-forwarder-configuration)</small>
+!!! note
+    This is an optional step. If you do not wish to create a new index, skip to [Splunk Universal Forwarder Configuration](#splunk-universal-forwarder-configuration).
 
 Splunk stores data in indexes. This add-on may be configured to send to a custom event index instead of the default index, main. For more information and steps to create a new index, see [Splunk Docs: Create events indexes](https://docs.splunk.com/Documentation/Splunk/latest/Indexer/Setupmultipleindexes#Create_events_indexes_2).
 
@@ -14,9 +15,12 @@ The out of the box Splunk configuration stores all data in the default index, ma
 
 ## Splunk Universal Forwarder Configuration
 
-Download the latest [Splunk Universal Forwarder (UF)](https://www.splunk.com/en_us/download/universal-forwarder.html) appropriate for your server. _This UF should be installed on the same server as the Pi-Hole server_.
+Download the latest [Splunk Universal Forwarder (UF)](https://www.splunk.com/en_us/download/universal-forwarder.html) appropriate for your server. 
 
-Install the UF according to [Splunk Docs](https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Installtheuniversalforwardersoftware).
+!!! note
+    Unless utilizing a syslog server, this UF should be installed on the same server as the Pi-Hole server.
+
+Install the UF according to [Splunk Docs: Install the Universal Forwarder](https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Installtheuniversalforwardersoftware).
 
 Once installed the configurations can be made. The following is a sample inputs.conf that can be pushed using a deployment server or configured on the UF itself. Place the following configurations in the `../local/inputs.conf` file.
 

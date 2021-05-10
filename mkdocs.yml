@@ -14,6 +14,9 @@ markdown_extensions:
       permalink: true
   - attr_list
   - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 theme:
   name: material
@@ -41,7 +44,7 @@ theme:
 nav:
   - Home: index.md
   - 'Getting Started':
-      - 'Pi-hole Logging Requirements': getting-started/index.md
+      - 'Pi-hole Logging Requirements': getting-started/pihole-logging-requirements.md
       - 'Where to Install': getting-started/where-to-install.md
       - 'Configure Inputs':
           - 'Configure Universal Forwarder': getting-started/configure-inputs/configure-inputs.md

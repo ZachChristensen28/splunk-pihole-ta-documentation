@@ -1,6 +1,9 @@
 # Configure Modular Input
 
-The TA-pihole_dns modular input will interact with the Pi-hole FTL API using GET requests. **Note**: The current Pi-hole HTTP API requires a plaintext API key passed as a parameter. 
+The TA-pihole_dns modular input will interact with the Pi-hole FTL API using GET requests. 
+
+!!! warning
+    The current Pi-hole HTTP API requires a plaintext API key passed as a parameter. 
 
 ## Add-on Prerequisites
 
@@ -25,10 +28,11 @@ The following steps are only applicable if you have setup a modular input prior 
 
 ## Setting up new Modular Input
 
-```
-Tested on: Pi-hole v5.2.4 Web Interface v5.4 FTL v5.7
-Add-on Version: 1.3.0
-```
+???+ info "Tested Versions"
+    Pi-hole **v5.2.4** | Web Interface **v5.4** | FTL **v5.7**
+    
+    Add-on Version **1.3.0**
+
 
 ### Modular Input Prerequisites
 
@@ -52,7 +56,10 @@ At least one account is needed for the modular input to work.
 1. Verify Prerequisites have been completed before proceeding. 
 1. Log in to the Splunk web interface.
 1. Navigate to the Pi-hole Add-on for Splunk > Configuration (Tab).
-    - <small>_Not seeing the Pihole Add-on? Verify the [Add-on Prerequistes](#add-on-prerequisites) have been completed._</small>
+
+    ??? question "Not seeing the Pihole Add-on?" 
+        Verify the [Add-on Prerequistes](#add-on-prerequisites) have been completed.
+
 1. Add a new Account.
 1. Enter a name for the account.
 1. Enter the API key. **Note**: if you are not using a password to authenticate to your Pi-hole instance, enter any text here.
