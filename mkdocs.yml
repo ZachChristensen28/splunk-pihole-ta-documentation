@@ -13,6 +13,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - attr_list
+  - meta
 
 theme:
   name: material
@@ -20,7 +21,7 @@ theme:
     repo: fontawesome/brands/github
   features:
     # - header.autohide
-    # - navigation.instant
+    - navigation.instant
     - navigation.tabs
     - navigation.sections
     - navigation.top
@@ -46,7 +47,9 @@ nav:
           - 'Configure Universal Forwarder': getting-started/configure-inputs/index.md
           - 'Configure Modular Input': getting-started/configure-inputs/configure-modinput.md
       - Troubleshooting: 
-          - 'Troubleshoot Modular Input': getting-started/troubleshooting/index.md
+          - 'Troubleshoot Modular Input': getting-started/troubleshooting/troubleshoot-modinputs.md
   - Reference:
-      - Releases: reference/releases/index.md
+      - Sourectypes: reference/sourcetypes.md
       - 'Modular Input Reference': reference/mod-input-reference.md
+      - Changelog: 
+          - Releases: reference/releases/index.md

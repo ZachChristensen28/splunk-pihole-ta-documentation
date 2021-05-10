@@ -77,3 +77,5 @@ Once completed the modular input will immediately run. To verify open up a searc
 ```
 index=<chosen index> sourcetype=pihole:*
 ```
+
+If data does not appear within a few minutes, see [Troubleshooting Modular Inputs](../troubleshooting/troubleshoot-modinputs.md).

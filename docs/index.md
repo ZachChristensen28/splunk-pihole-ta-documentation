@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+    - toc
+---
 # Home
 
 The Pi-hole Add-on allows Splunk data administrators to map the Pi-Hole® DNS server events to the CIM enabling the data to be used with other Splunk Apps, such as the [Pihole App for Splunk](https://splunkbase.splunk.com/app/4506).
