@@ -44,9 +44,10 @@ nav:
       - 'Pi-hole Logging Requirements': getting-started/index.md
       - 'Where to Install': getting-started/where-to-install.md
       - 'Configure Inputs':
-          - 'Configure Universal Forwarder': getting-started/configure-inputs/index.md
+          - 'Configure Universal Forwarder': getting-started/configure-inputs/configure-inputs.md
           - 'Configure Modular Input': getting-started/configure-inputs/configure-modinput.md
-      - Troubleshooting: 
+      - Troubleshooting:
+          - 'Troubleshoot Monitoring Inputs': getting-started/troubleshooting/troubleshoot-inputs.md
           - 'Troubleshoot Modular Input': getting-started/troubleshooting/troubleshoot-modinputs.md
   - Reference:
       - Sourectypes: reference/sourcetypes.md
