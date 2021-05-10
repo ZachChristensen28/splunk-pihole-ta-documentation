@@ -1,6 +1,9 @@
 # Configure Modular Input
 
-The TA-pihole_dns modular input will interact with the Pi-hole FTL API using GET requests. **Note**: The current Pi-hole HTTP API requires a plaintext API key passed as a parameter. 
+The TA-pihole_dns modular input will interact with the Pi-hole FTL API using GET requests. 
+
+!!! warning
+    The current Pi-hole HTTP API requires a plaintext API key passed as a parameter. 
 
 ## Add-on Prerequisites
 
@@ -25,10 +28,11 @@ The following steps are only applicable if you have setup a modular input prior 
 
 ## Setting up new Modular Input
 
-```
-Tested on: Pi-hole v5.2.4 Web Interface v5.4 FTL v5.7
-Add-on Version: 1.3.0
-```
+???+ info "Tested Versions"
+    Pi-hole **v5.2.4** | Web Interface **v5.4** | FTL **v5.7**
+    
+    Add-on Version **1.3.0**
+
 
 ### Modular Input Prerequisites
 
@@ -52,7 +56,10 @@ At least one account is needed for the modular input to work.
 1. Verify Prerequisites have been completed before proceeding. 
 1. Log in to the Splunk web interface.
 1. Navigate to the Pi-hole Add-on for Splunk > Configuration (Tab).
-    - <small>_Not seeing the Pihole Add-on? Verify the [Add-on Prerequistes](#add-on-prerequisites) have been completed._</small>
+
+    ??? question "Not seeing the Pihole Add-on?" 
+        Verify the [Add-on Prerequistes](#add-on-prerequisites) have been completed.
+
 1. Add a new Account.
 1. Enter a name for the account.
 1. Enter the API key. **Note**: if you are not using a password to authenticate to your Pi-hole instance, enter any text here.
@@ -65,8 +72,8 @@ At least one account is needed for the modular input to work.
 
 1. Navigate to the Input tab.
 2. Click "Create New Input"
-3. <small>_(optional)_</small> Create input for System Summary Events [see Modular Input Reference](/reference/mod-input-reference.md).
-4. <small>_(optional)_</small> Create input for Filter Events [see Modular Input Reference](/reference/mod-input-reference.md).
+3. <small>_(optional)_</small> Create input for System Summary Events see [Modular Input Reference](../../reference/mod-input-reference.md).
+4. <small>_(optional)_</small> Create input for Filter Events see [Modular Input Reference](../../reference/mod-input-reference.md).
 5. For the selected input, enter a unique name, index, and an interval to run in seconds. <small>_Minimum: 300 (5 minutes)_</small>.
 6. Click add.
 
@@ -77,3 +84,5 @@ Once completed the modular input will immediately run. To verify open up a searc
 ```
 index=<chosen index> sourcetype=pihole:*
 ```
+
+If data does not appear within a few minutes, see [Troubleshooting Modular Inputs](../troubleshooting/troubleshoot-modinputs.md).

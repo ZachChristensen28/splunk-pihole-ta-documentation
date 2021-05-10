@@ -1,6 +1,7 @@
 # Pi-hole Logging Requirements
 
-\* ***Failing to perform the following will cause this add-on to not extract fields properly***
+!!! Warning
+    Failing to perform the following will cause this add-on to not extract fields properly
 
 Set `log-queries=extra` in the pihole dnsmasq configuration file. Pi-hole® recommends to make any changes to a new configuration file to avoid changes to be overridden during an update.
 

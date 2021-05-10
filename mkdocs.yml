@@ -13,6 +13,10 @@ markdown_extensions:
   - toc:
       permalink: true
   - attr_list
+  - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 theme:
   name: material
@@ -20,7 +24,7 @@ theme:
     repo: fontawesome/brands/github
   features:
     # - header.autohide
-    # - navigation.instant
+    - navigation.instant
     - navigation.tabs
     - navigation.sections
     - navigation.top
@@ -40,13 +44,16 @@ theme:
 nav:
   - Home: index.md
   - 'Getting Started':
-      - 'Pi-hole Logging Requirements': getting-started/index.md
+      - 'Pi-hole Logging Requirements': getting-started/pihole-logging-requirements.md
       - 'Where to Install': getting-started/where-to-install.md
       - 'Configure Inputs':
-          - 'Configure Universal Forwarder': getting-started/configure-inputs/index.md
+          - 'Configure Universal Forwarder': getting-started/configure-inputs/configure-inputs.md
           - 'Configure Modular Input': getting-started/configure-inputs/configure-modinput.md
-      - Troubleshooting: 
-          - 'Troubleshoot Modular Input': getting-started/troubleshooting/index.md
+      - Troubleshooting:
+          - 'Troubleshoot Monitoring Inputs': getting-started/troubleshooting/troubleshoot-inputs.md
+          - 'Troubleshoot Modular Input': getting-started/troubleshooting/troubleshoot-modinputs.md
   - Reference:
-      - Releases: reference/releases/index.md
+      - Sourectypes: reference/sourcetypes.md
       - 'Modular Input Reference': reference/mod-input-reference.md
+      - Changelog: 
+          - Releases: reference/releases/index.md
