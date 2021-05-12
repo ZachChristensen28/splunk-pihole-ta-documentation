@@ -8,4 +8,5 @@ Sourcetype | Description | CIM Data Models
 `pihole:dhcp` | Pi-hole DHCP events | [Network Sessions](https://docs.splunk.com/Documentation/CIM/latest/User/NetworkSessions)
 `pihole:ftl` | Pi-hole FTL events | None
 `pihole:system` | Pi-hole API data | None
+`pihole:filters` | Pi-hole API data for filters | None
 `pihole:lists` | Pi-hole lists | None
