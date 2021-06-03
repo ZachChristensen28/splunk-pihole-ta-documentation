@@ -7,7 +7,7 @@ hide:
 
 The Pi-hole Add-on allows Splunk data administrators to map the Pi-Hole® DNS server events to the CIM enabling the data to be used with other Splunk Apps, such as the [Pihole App for Splunk](https://splunkbase.splunk.com/app/4506).
 
-This Splunk Add-on is community driven and not affiliated with the official [Pi-hole®](https://pi-hole.net) application. As such, the included documentation does not contain information on how to get started with the Pi-hole DNS server. Rather, this docuemtnation serves as a guide to help get data into Splunk. Please visit [https://pi-hole.net](https://pi-hole.net) for documentation on installing/configuring your own Pi-hole server.
+This Splunk Add-on is community driven and not affiliated with the official [Pi-hole®](https://pi-hole.net) application. As such, the included documentation does not contain information on how to get started with the Pi-hole DNS server. Rather, this documentation serves as a guide to help get data into Splunk. Please visit [https://pi-hole.net](https://pi-hole.net) for documentation on installing/configuring your own Pi-hole server.
 
 ## Assumptions
 
