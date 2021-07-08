@@ -2,6 +2,11 @@
 
 ## Pi-hole Add-on for Splunk
 
+### v1.3.1 <small>July 8, 2021</small>
+
+* fixed issue causing internal logs to produce a checkpointer not defined error [#28](https://github.com/ZachChristensen28/TA-pihole_dns/issues/28)
+* updated field extractions to include dnssec query events introduced in new Pi-Hole version (Core: v5.4, FTL v5.9).
+
 ### v1.3.0 <small>April 28, 2021</small>
 
 * Added ability to pull regex and domain filters created in the Pi-hole server.

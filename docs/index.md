@@ -21,8 +21,8 @@ This documentation assumes the following:
 
 Info | Description
 ------|----------
-Version | 1.3.0 - [Splunkbase](https://splunkbase.splunk.com/app/4505) \| [GitHub](https://github.com/ZachChristensen28/TA-pihole_dns)
-Vendor Product Version | [Pi-hole® v5.3.x, FTL 5.8.x](https://pi-hole.net/)
+Version | 1.3.1 - [Splunkbase](https://splunkbase.splunk.com/app/4505) \| [GitHub](https://github.com/ZachChristensen28/TA-pihole_dns)
+Vendor Product Version | [Pi-hole® v5.x, FTL 5.x](https://pi-hole.net/)
 Add-on has a web UI | Yes, this Add-on contains a configuration page for the Modular Input.
 
 [Get Started](getting-started/pihole-logging-requirements.md){ .md-button .md-button--primary }
