@@ -16,7 +16,7 @@ The out of the box Splunk configuration stores all data in the default index, ma
 ## Splunk Universal Forwarder Configuration
 
 !!! danger "Before Proceeding"
-    Ensure the [Pi-hole logging requirement](../../pihole-logging-requirements) has been completed. Failure to set `log-queries=extra` will cause this add-on to not extract fields properly.
+    Ensure the [Pi-hole logging requirement](../../pihole-logging-requirements/) has been completed. Failure to set `log-queries=extra` will cause this add-on to not extract fields properly.
 
 ???+ note inline
     Unless utilizing a syslog server, this UF should be installed on the same server as the Pi-Hole server.
