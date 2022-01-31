@@ -27,8 +27,7 @@ Install the UF according to [Splunk Docs: Install the Universal Forwarder](https
 
 Once installed the configurations can be made. The following is a sample inputs.conf that can be pushed using a deployment server or configured on the UF itself. Place the following configurations in the `../local/inputs.conf` file.
 
-```shell
-# inputs.conf
+```cfg title="inputs.conf"
 [monitor:///var/log/pihole.log]
 disabled = 0
 sourcetype = pihole
