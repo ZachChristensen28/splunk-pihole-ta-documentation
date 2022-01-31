@@ -1,5 +1,7 @@
 # Pi-hole Add-on for Splunk Documentation
 
-[![Documentation Status](https://readthedocs.org/projects/splunk-pihole-ta-documentation/badge/?version=latest)](https://splunk-pihole-ta-documentation.readthedocs.io/en/latest/?badge=latest)
+[![docs](https://github.com/ZachChristensen28/splunk-pihole-ta-documentation/actions/workflows/ci.yml/badge.svg)](https://splunk-pihole-ta.ztsplunker.com/)
 
-Please see the official documentation at https://splunk-pihole-ta-documentation.rtfd.io/
+## Documentation Site
+
+[https://splunk-pihole-ta.ztsplunker.com/](https://splunk-pihole-ta.ztsplunker.com/)

@@ -1,6 +1,6 @@
 # Pi-hole Logging Requirements
 
-!!! danger "Important"
+!!! danger "[Danger, Will Robinson](https://cultural-phenomenons.fandom.com/wiki/Danger,_Will_Robinson)"
     Failing to perform the following will cause this add-on to not extract fields properly
 
 Set `log-queries=extra` in the pihole dnsmasq configuration file. Pi-hole® recommends to make any changes to a new configuration file to avoid changes to be overridden during an update.
